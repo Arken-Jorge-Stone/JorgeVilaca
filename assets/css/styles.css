@@ -1,0 +1,64 @@
+@media (max-width: 799px) {
+    body {
+        background-color: white;
+        font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    }
+}
+@media screen and (min-width: 800px) {
+    body {
+        /*background-color: #f4f6f9;*/
+        background-image: url("../images/background.jpg");
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    }
+    #container-wrapper {
+        height: 100vh;
+        overflow-y: scroll;
+        background-color: #fff;
+        padding: 4em;
+        box-shadow: 0 4px 30px rgba(0,0,0,0.1), 0 4px 30px rgba(0,0,0,0.1);
+    }
+}
+
+p {
+    text-align: justify;
+}
+.name-title {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 0.2em;
+    color: #1b1c1d;
+    line-height: 1em;
+}
+.job-title {
+    font-size: 1.3em;
+    color: #555;
+    margin-bottom: 1em;
+    line-height: 1em;
+}
+.contact-info .item, a {
+    font-size: 0.95em;
+    color: #333;
+}
+.ui.tab.segment {
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    padding: 2.5em;
+    transition: background 0.4s ease;
+}
+.ui.pointing.secondary.menu .item {
+    font-weight: 600;
+}
+.ui.card {
+    border-radius: 18px !important;
+    text-align: justify;
+}
+.section-title {
+    font-size: 1.3em;
+    color: #2185d0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 1em;
+    font-weight: 700;
+}
